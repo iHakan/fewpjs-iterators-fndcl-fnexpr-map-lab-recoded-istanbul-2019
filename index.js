@@ -14,6 +14,6 @@ const tutorials = [
 function titleCase(sentence) {
    const splitSentence = sentence.toLowerCase().split(' ');
    const upper = splitSentence.map(words=>words.toUpperCase());
-   const conCat = 
+   const conCat = upper.conCat();
 }
   
